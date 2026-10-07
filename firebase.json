@@ -1,0 +1,39 @@
+{
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "skill-exchange-457f3",
+          "appId": "1:252443331104:android:2b7e0597044f337535ca45",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "skill-exchange-457f3",
+          "configurations": {
+            "android": "1:252443331104:android:2b7e0597044f337535ca45",
+            "ios": "1:252443331104:ios:db33b8b185394c1935ca45",
+            "macos": "1:252443331104:ios:db33b8b185394c1935ca45",
+            "web": "1:252443331104:web:12dbd56448ca8ae435ca45",
+            "windows": "1:252443331104:web:c059769e21f08b6335ca45"
+          }
+        }
+      }
+    }
+  },
+  "hosting": {
+    "public": "build/web",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}

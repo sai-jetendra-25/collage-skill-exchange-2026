@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "252443331104",
+    "project_id": "skill-exchange-457f3",
+    "storage_bucket": "skill-exchange-457f3.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:252443331104:android:2b7e0597044f337535ca45",
+        "android_client_info": {
+          "package_name": "com.example.app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDE7-YKN-1RhwShp-XUToH_gcU2P5h2lb0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
